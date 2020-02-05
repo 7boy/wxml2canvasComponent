@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view>
+<view class="shadow"></view>
+<view class="box">
+  <view class="share__canvas share__canvas1">
+      <view class="share__canvas1-text draw_canvas" 
+          data-type="text" data-text="这是一段无边距文字111">
+          这是一段无边距文字这是一段无边距文字这是一段无边距文字
+      </view>
+  </view>
+  <canvas canvas-id="canvas1" class="share__canvas"></canvas>
+  <image src="{{url}}"></image>
+  <button bindtap="saveImg">保存</button>
+  </view>
+</view>
